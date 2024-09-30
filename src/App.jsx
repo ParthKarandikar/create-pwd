@@ -39,8 +39,8 @@ function App() {
   
   return (
     <div className="flex justify-center items-center h-screen font-mono bg-blue-700">
-      <div className="grid-cols-1 p-10 bg-white border-4 border-black text-black">
-        <input className="text-4xl font-bold mb-6" ref={passwordRef} value={Password}/>
+      <div className=" max-w-sm grid-cols-1 p-10 bg-white border-4 border-black text-black">
+        <input className="text-2xl font-bold mb-6" ref={passwordRef} value={Password}/>
 
         <div className="flex items-center mb-4">
           <input 
